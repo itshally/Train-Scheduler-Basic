@@ -16,13 +16,13 @@
     </head>
     <body> 
         <!-- header -->
-        <div class="container-fluid header-container">
+        <div class="container header-container">
             <h1>Anytime is Train Time</h1>
             <h2>Choo Choo Chee Chee</h2>
         </div>
         
         <!-- table for the train schedule -->
-        <div class="container-fluid train-schedules-container">
+        <div class="container train-schedules-container">
             <h3>Current Train Schedule</h3>
             <table class="table table-hover">
                 <thead>
@@ -35,18 +35,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
                 </tbody>
             </table>
         </div>
 
         <!-- form for adding a train schedule -->
-        <div class="container-fluid add-schedule-container">
+        <div class="container add-schedule-container">
             <h3>Add Train</h3>
             <form>
                 <div class="form-group">
@@ -82,7 +76,10 @@
         <!-- LINKS FOR FIREBASE GO HERE -->
         <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
-  
+
+        <!-- moment.js CDN  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
         <!-- custom js -->
         <script src="assets/javascript/main.js"></script>
     </body>
