@@ -3,8 +3,13 @@ html, body{
     margin: 0%;
     height: 100%;
     width: 100%;
-    background-color: #E3EAEF;
+    background-color: #dfe6ea;
     font-family: 'NTR', sans-serif;
+}
+
+/* header container */
+.header-container{
+    background-color: #f2f6f8;
 }
 
 /* style for the plus icon */
@@ -38,11 +43,12 @@ h1{
     padding: 10px;
     margin: 10px;
     border-radius: 50%;
+    border: 3px solid red;
 }
 
 /* styles for the row data */
 .train-schedules-container{
-    margin: -2% auto;
+    margin: 2.5% auto;
 }
 h3{
     font-weight: bold;
@@ -67,6 +73,9 @@ h3{
     border-radius: 5px;
     width: auto;
     opacity: 0.9;
+}
+.train-row:hover{
+    border: 1px solid red;
 }
 #train-names{
     font-size: 1.5em;
@@ -111,6 +120,10 @@ form label{
 #add-btn:hover, #cancel-btn:hover{
     background-color: #FFFFFF;
     color: #000000;
+}
+
+.footer-container{
+    text-align: center;
 }
 
 /* media queries */
