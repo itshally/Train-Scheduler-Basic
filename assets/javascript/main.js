@@ -97,13 +97,13 @@ function Clear(){
 }
 
 //jQuery Effects 
-$('.add-schedule-container').hide();
+// $('.add-schedule-container').hide();
 
-$('#add-icon').on('click', function(){
-  $('.train-schedules-container').hide();
-  $('.add-schedule-container').fadeIn();
-  $('#add-icon').hide();
-})
+// $('#add-icon').on('click', function(){
+//   $('.train-schedules-container').hide();
+//   $('.add-schedule-container').fadeIn();
+//   $('#add-icon').hide();
+// })
 
 $('#cancel-btn').on('click', function(){
   $('.train-schedules-container').fadeIn();
