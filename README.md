@@ -4,11 +4,17 @@
 A train schedule application that incorporates Firebase to host arrival and departure data. This app will retrieve and manipulate this information with Moment.js. It will also provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
 
 **When adding trains, administrators should be able to submit the following:**
+
 :white_check_mark: Train Name
+
 :white_check_mark: Destination
+
 :white_check_mark: First Train Time -- in military time
+
 :white_check_mark: Frequency -- in minutes
+
 :white_check_mark: Code this app to calculate when the next train will arrive; this should be relative to the current time.
+
 :white_check_mark: Users from many different machines must be able to view same train times.
 
 ## :open_file_folder: Files
