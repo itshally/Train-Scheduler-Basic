@@ -116,7 +116,7 @@ h3{
 
 /* styles for form container */
 .add-schedule-container{
-    background-color: #E3EAEF;
+    background-color: transparent;
     height: auto;
     width: auto;
     padding: 2%;
